@@ -40,7 +40,7 @@ public User getUser(@RequestParam Integer i) {
 	return null;
 }
 *///event/recent
-
+//provjera rada
 	    @GetMapping("/rank{id_user}")
 	  public ResponseEntity<List<Rank>> getUserRanksWithSkillsByUserId(@PathVariable String userId) {
 	        List<Rank> userRanksWithSkills = userService.getUserRanksWithSkillsByUserId(userId);
